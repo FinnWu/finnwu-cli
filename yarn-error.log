@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Develop\nodejs\node.exe C:\Users\Finnwu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add commander.js download-git-repo inquirer handlebars ora chalk log-symbols
+
+PATH: 
+  C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Develop\nodejs\;C:\Develop\Git\cmd;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\PuTTY\;C:\Users\Finnwu\AppData\Local\Microsoft\WindowsApps;;C:\ProgramData\Microsoft VS Code\bin;C:\Users\Finnwu\AppData\Roaming\npm;C:\Users\Finnwu\Downloads\apache-maven-3.6.0\bin;C:\Develop\Java\jdk-11.0.2\bin
+
+Yarn version: 
+  1.12.1
+
+Node version: 
+  10.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/commander.js: Not found
+      at Request.params.callback [as _callback] (C:\Users\Finnwu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:62126:18)
+      at Request.self.callback (C:\Users\Finnwu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:124482:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (C:\Users\Finnwu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:125454:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (C:\Users\Finnwu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:125376:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1092:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "okii-cli",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
